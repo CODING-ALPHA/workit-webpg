@@ -288,13 +288,13 @@ strong {
 
 .fish{
     position: relative;
-    transform: rotateZ(100deg);
+    transform: transformY(150px);
     opacity: 0;
     transition: all 1.5s ease;
 }
 
 .fish.active{
-    transform: translateX(0px);
+    transform: translateY(0px);
     opacity: 1;
   }
 
