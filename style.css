@@ -288,7 +288,7 @@ strong {
 
 .fish{
     position: relative;
-    transform: transformY(150px);
+    transform: translateY(150px);
     opacity: 0;
     transition: all 1.5s ease;
 }
